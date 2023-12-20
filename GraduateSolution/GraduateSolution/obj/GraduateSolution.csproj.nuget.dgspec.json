@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Code C Sharp\\start\\GraduateSolution\\GraduateSolution\\GraduateSolution.csproj": {}
+    "C:\\Users\\vumin\\source\\repos\\graduateProject\\GraduateSolution\\GraduateSolution\\GraduateSolution.csproj": {}
   },
   "projects": {
-    "F:\\Code C Sharp\\start\\GraduateSolution\\GraduateSolution\\GraduateSolution.csproj": {
+    "C:\\Users\\vumin\\source\\repos\\graduateProject\\GraduateSolution\\GraduateSolution\\GraduateSolution.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Code C Sharp\\start\\GraduateSolution\\GraduateSolution\\GraduateSolution.csproj",
+        "projectUniqueName": "C:\\Users\\vumin\\source\\repos\\graduateProject\\GraduateSolution\\GraduateSolution\\GraduateSolution.csproj",
         "projectName": "GraduateSolution",
-        "projectPath": "F:\\Code C Sharp\\start\\GraduateSolution\\GraduateSolution\\GraduateSolution.csproj",
+        "projectPath": "C:\\Users\\vumin\\source\\repos\\graduateProject\\GraduateSolution\\GraduateSolution\\GraduateSolution.csproj",
         "packagesPath": "C:\\Users\\vumin\\.nuget\\packages\\",
-        "outputPath": "F:\\Code C Sharp\\start\\GraduateSolution\\GraduateSolution\\obj\\",
+        "outputPath": "C:\\Users\\vumin\\source\\repos\\graduateProject\\GraduateSolution\\GraduateSolution\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vumin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,6 +59,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.24, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

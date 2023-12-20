@@ -6,7 +6,6 @@ namespace GraduateSolution
     public class Repository<T> : IRepository<T> where T : class
     {
         private readonly foot_ball_sourceContext _repository;
-        private foot_ball_sourceContext context;
 
         public Repository(foot_ball_sourceContext context)
         {
@@ -31,7 +30,7 @@ namespace GraduateSolution
         {
             try
             {
-                var data = _repository.Set<T>().Find(int.Parse(id));
+                var data = _repository.Set<T>().Find(id);
                 _repository.Remove(data);
                 await _repository.SaveChangesAsync();
                 return 1;
@@ -44,7 +43,7 @@ namespace GraduateSolution
 
         public async Task<T> FindByIdAsync(string id)
         {
-            var data = await _repository.Set<T>().FindAsync(int.Parse(id));
+            var data = await _repository.Set<T>().FindAsync(id);
             return data;
         }
 
@@ -56,7 +55,7 @@ namespace GraduateSolution
 
         public async Task<bool> IsExist(string id)
         {
-            var data = await _repository.Set<T>().FindAsync(int.Parse(id));
+            var data = await _repository.Set<T>().FindAsync(id);
             return data != null ? true : false;
         }
 
